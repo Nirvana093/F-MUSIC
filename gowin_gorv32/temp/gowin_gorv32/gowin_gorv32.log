@@ -1,0 +1,126 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\ahb_bridge.v'
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_bridge.v'
+Analyzing included file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_bridge.v":628)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_bridge.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_bridge.v":628)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_gpio.v'
+Analyzing included file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_gpio.v":397)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_gpio.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_gpio.v":397)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_iic.v'
+Analyzing included file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_iic.v":732)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_iic.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_iic.v":732)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v'
+Analyzing included file 'gorv32_config.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+Analyzing included file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_uart.v'
+Analyzing included file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_uart.v":1189)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_uart.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_uart.v":1189)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_wdt.v'
+Analyzing included file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_wdt.v":163)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_wdt.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_wdt.v":163)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v'
+Analyzing included file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v'
+Analyzing included file 'gorv32_config.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+Analyzing included file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_const.vh'
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_top.v'
+Analyzing included file 'gorv32_config.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_top.v":12)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_top.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_top.v":12)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\misc.v'
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\onchip_ram.v'
+Analyzing included file 'gorv32_config.vh'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\onchip_ram.v":225)
+Back to file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\onchip_ram.v'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\onchip_ram.v":225)
+Analyzing Verilog file 'D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\riscv_core.v'
+Compiling module 'Gowin_GoRV32_Top'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32_top.v":18)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\misc.v":301)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\riscv_core.v":9940)
+Extracting RAM for identifier '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\riscv_core.v":9940)
+WARN  (EX1998) : Net '**' does not have a driver("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\riscv_core.v":9940)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\onchip_ram.v":225)
+Extracting RAM for identifier '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\onchip_ram.v":225)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length *** for port '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\ahb_bridge.v":758)
+Extracting RAM for identifier '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\ahb_bridge.v":758)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_bridge.v":628)
+Extracting RAM for identifier '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\misc.v":301)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_uart.v":1189)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_gpio.v":397)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_iic.v":732)
+Compiling module '**'("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (EX2420) : Latch inferred for net '**'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\misc.v":301)
+NOTE  (EX0101) : Current top module is "Gowin_GoRV32_Top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+WARN  (DI0003) : Latch inferred for net 'latch_out';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\misc.v":301)
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "gw_inout_pad" instantiated to "spi1_clk_pad" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+WARN  (NL0002) : The module "gw_inout_pad" instantiated to "spi1_csn_pad" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+WARN  (NL0002) : The module "gw_inout_pad" instantiated to "spi1_holdn_pad" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+WARN  (NL0002) : The module "gw_inout_pad" instantiated to "spi1_miso_pad" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+WARN  (NL0002) : The module "gw_inout_pad" instantiated to "spi1_wpn_pad" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\gorv32.v":741)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec0" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec1" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec2" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec3" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec4" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec5" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec6" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec0" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec1" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec2" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec3" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec4" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec5" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec6" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_mst_decoder" instantiated to "u_mst_decoder" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec0" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec1" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec2" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec3" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec4" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec5" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_addrdec" instantiated to "u_ahb_addrdec6" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gwbmc_mux" instantiated to "u_mux" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\bus_matrix.v":26729)
+WARN  (NL0002) : The module "gw_sync_l2l" instantiated to "txf_clr_ack_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_l2l" instantiated to "txf_clr_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gwspi_reg" instantiated to "u_spi_reg" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gwspi_regif" instantiated to "u_spi_regif" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gwspi_regif_ctrl" instantiated to "u_spi_regif_ctrl" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_gck" instantiated to "master_gclk_0" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_l2l" instantiated to "spi_clk_in_syn" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_l2l" instantiated to "spi_cs_n_syn" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_l2l" instantiated to "dataonly_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_l2l" instantiated to "mem_intf_idle_clr_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_p2p" instantiated to "rxf_overrun_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_p2p" instantiated to "slave_cmd_wr_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_p2p" instantiated to "slave_rcnt_inc_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_p2p" instantiated to "slave_wcnt_inc_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_l2l" instantiated to "spi_reset_ack_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_l2l" instantiated to "spi_reset_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+WARN  (NL0002) : The module "gw_sync_p2p" instantiated to "txf_underrun_sync" is swept in optimizing("D:\Tools\gowin\Gowin_V1.9.12_x64\IDE\ipcore\GowinGoRV32\data\apb_spi.v":2691)
+[95%] Generate netlist file "D:\Project\F_MUSIC_YH\F_MUSIC_YH\src\gowin_gorv32\temp\gowin_gorv32\gowin_gorv32.vg" completed
+Generate template file "D:\Project\F_MUSIC_YH\F_MUSIC_YH\src\gowin_gorv32\temp\gowin_gorv32\gowin_gorv32_tmp.v" completed
+[100%] Generate report file "D:\Project\F_MUSIC_YH\F_MUSIC_YH\src\gowin_gorv32\temp\gowin_gorv32\gowin_gorv32_syn.rpt.html" completed
+GowinSynthesis finish

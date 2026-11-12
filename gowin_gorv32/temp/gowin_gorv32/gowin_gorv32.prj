@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AT-138B" package="PBGA484A" speed="1" partNumber="GW5AT-LV138PG484AC1/I0"/>
+    <FileList>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/ahb_bridge.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/apb_bridge.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/apb_gpio.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/apb_iic.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/apb_spi.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/apb_uart.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/apb_wdt.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/bus_matrix.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/gorv32.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/gorv32_const.vh" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/gorv32_top.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/misc.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/onchip_ram.v" type="verilog"/>
+        <File path="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data/riscv_core.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="include_path" value="D:/Tools/gowin/Gowin_V1.9.12_x64/IDE/ipcore/GowinGoRV32/data"/>
+        <Option type="include_path" value="D:/Project/F_MUSIC_YH/F_MUSIC_YH/src/gowin_gorv32/temp/gowin_gorv32"/>
+        <Option type="output_file" value="gowin_gorv32.vg"/>
+        <Option type="output_template" value="gowin_gorv32_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="Gowin_GoRV32_Top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="vccx" value="1.8"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>
