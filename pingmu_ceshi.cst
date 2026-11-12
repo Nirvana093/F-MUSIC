@@ -1,0 +1,324 @@
+// ============================================================================
+// 文件名称: pingmu_ceshi.cst (WM8978 信号全量迁移至 P11 偶数排针版)
+// 适用板卡: 芯路恒 ACX750 开发板 + P11 (GPIO0) 40-Pin 音频与MIDI扩展板
+// ============================================================================
+
+// ==========================================================
+// 1. 系统主时钟输入 (50MHz 有源晶振)
+// ==========================================================
+IO_LOC "clk_50m" W19;
+IO_PORT "clk_50m" IO_TYPE=LVCMOS33;
+
+// ==========================================================
+// 2. 9 路全链路诊断指示灯 LED[0]~LED[8] (高电平点亮)
+// ==========================================================
+IO_LOC "led[0]" U22;
+IO_PORT "led[0]" IO_TYPE=LVCMOS33;
+IO_LOC "led[1]" V22;
+IO_PORT "led[1]" IO_TYPE=LVCMOS33;
+IO_LOC "led[2]" W21;
+IO_PORT "led[2]" IO_TYPE=LVCMOS33;
+IO_LOC "led[3]" W22;
+IO_PORT "led[3]" IO_TYPE=LVCMOS33;
+IO_LOC "led[4]" Y21;
+IO_PORT "led[4]" IO_TYPE=LVCMOS33;
+IO_LOC "led[5]" Y22;
+IO_PORT "led[5]" IO_TYPE=LVCMOS33;
+IO_LOC "led[6]" N13;
+IO_PORT "led[6]" IO_TYPE=LVCMOS33;
+IO_LOC "led[7]" N17;
+IO_PORT "led[7]" IO_TYPE=LVCMOS33;
+IO_LOC "led[8]" P17;
+IO_PORT "led[8]" IO_TYPE=LVCMOS33;
+
+// ==========================================================
+// 3. LCD 屏幕接口 (RGB565, P1 接口)
+// ==========================================================
+IO_LOC "lcd_b[0]" G16;
+IO_PORT "lcd_b[0]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_b[1]" G15;
+IO_PORT "lcd_b[1]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_b[2]" G13;
+IO_PORT "lcd_b[2]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_b[3]" H13;
+IO_PORT "lcd_b[3]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_b[4]" H15;
+IO_PORT "lcd_b[4]" IO_TYPE=LVCMOS33;
+
+IO_LOC "lcd_g[0]" G20;
+IO_PORT "lcd_g[0]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_g[1]" H18;
+IO_PORT "lcd_g[1]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_g[2]" H20;
+IO_PORT "lcd_g[2]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_g[3]" H17;
+IO_PORT "lcd_g[3]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_g[4]" J17;
+IO_PORT "lcd_g[4]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_g[5]" K17;
+IO_PORT "lcd_g[5]" IO_TYPE=LVCMOS33;
+
+IO_LOC "lcd_r[0]" R18;
+IO_PORT "lcd_r[0]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_r[1]" G18;
+IO_PORT "lcd_r[1]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_r[2]" R19;
+IO_PORT "lcd_r[2]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_r[3]" G17;
+IO_PORT "lcd_r[3]" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_r[4]" P19;
+IO_PORT "lcd_r[4]" IO_TYPE=LVCMOS33;
+
+IO_LOC "lcd_hsync" H14;
+IO_PORT "lcd_hsync" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_vsync" J14;
+IO_PORT "lcd_vsync" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_de" K14;
+IO_PORT "lcd_de" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_bl" K13;
+IO_PORT "lcd_bl" IO_TYPE=LVCMOS33;
+IO_LOC "lcd_clk" J15;
+IO_PORT "lcd_clk" IO_TYPE=LVCMOS33;
+
+// ==========================================================
+// 4. DDR3 物理接口约束
+// ==========================================================
+IO_LOC "O_ddr_clk" V4,W4;
+IO_PORT "O_ddr_clk" IO_TYPE=SSTL15D PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_cke" AA5;
+IO_PORT "O_ddr_cke" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_cs_n" U5;
+IO_PORT "O_ddr_cs_n" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_ras_n" U3;
+IO_PORT "O_ddr_ras_n" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_cas_n" W6;
+IO_PORT "O_ddr_cas_n" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_we_n" V3;
+IO_PORT "O_ddr_we_n" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_odt" T5;
+IO_PORT "O_ddr_odt" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_reset_n" T1;
+IO_PORT "O_ddr_reset_n" IO_TYPE=LVCMOS15 PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "O_ddr_ba[0]" R3;
+IO_PORT "O_ddr_ba[0]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_ba[1]" Y4;
+IO_PORT "O_ddr_ba[1]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_ba[2]" V2;
+IO_PORT "O_ddr_ba[2]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "O_ddr_addr[0]" Y2;
+IO_PORT "O_ddr_addr[0]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[1]" AB3;
+IO_PORT "O_ddr_addr[1]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[2]" Y1;
+IO_PORT "O_ddr_addr[2]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[3]" U1;
+IO_PORT "O_ddr_addr[3]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[4]" AA4;
+IO_PORT "O_ddr_addr[4]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[5]" W1;
+IO_PORT "O_ddr_addr[5]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[6]" AB5;
+IO_PORT "O_ddr_addr[6]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[7]" R2;
+IO_PORT "O_ddr_addr[7]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[8]" AB2;
+IO_PORT "O_ddr_addr[8]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[9]" W2;
+IO_PORT "O_ddr_addr[9]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[10]" Y3;
+IO_PORT "O_ddr_addr[10]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[11]" AA1;
+IO_PORT "O_ddr_addr[11]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[12]" AA3;
+IO_PORT "O_ddr_addr[12]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[13]" U2;
+IO_PORT "O_ddr_addr[13]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_addr[14]" AB1;
+IO_PORT "O_ddr_addr[14]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "O_ddr_dqm[0]" F3;
+IO_PORT "O_ddr_dqm[0]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+IO_LOC "O_ddr_dqm[1]" H3;
+IO_PORT "O_ddr_dqm[1]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "IO_ddr_dqs[0]" E1,D1;
+IO_PORT "IO_ddr_dqs[0]" IO_TYPE=SSTL15D PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 DIFF_RESISTOR=OFF;
+IO_LOC "IO_ddr_dqs[1]" K2,J2;
+IO_PORT "IO_ddr_dqs[1]" IO_TYPE=SSTL15D PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 DIFF_RESISTOR=OFF;
+
+IO_LOC "IO_ddr_dq[0]" C2;
+IO_PORT "IO_ddr_dq[0]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[1]" E2;
+IO_PORT "IO_ddr_dq[1]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[2]" B2;
+IO_PORT "IO_ddr_dq[2]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[3]" G1;
+IO_PORT "IO_ddr_dq[3]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[4]" B1;
+IO_PORT "IO_ddr_dq[4]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[5]" F1;
+IO_PORT "IO_ddr_dq[5]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[6]" A1;
+IO_PORT "IO_ddr_dq[6]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[7]" D2;
+IO_PORT "IO_ddr_dq[7]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[8]" H2;
+IO_PORT "IO_ddr_dq[8]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[9]" G3;
+IO_PORT "IO_ddr_dq[9]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[10]" H4;
+IO_PORT "IO_ddr_dq[10]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[11]" G2;
+IO_PORT "IO_ddr_dq[11]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[12]" H5;
+IO_PORT "IO_ddr_dq[12]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[13]" J1;
+IO_PORT "IO_ddr_dq[13]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[14]" J5;
+IO_PORT "IO_ddr_dq[14]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+IO_LOC "IO_ddr_dq[15]" K1;
+IO_PORT "IO_ddr_dq[15]" IO_TYPE=SSTL15 PULL_MODE=NONE DRIVE=8 SINGLE_RESISTOR=50 VREF=INTERNAL;
+
+// ==========================================================
+// 5. 轻触按键 S[0]~S[4] 与 74HC595 八位数码管约束
+// ==========================================================
+IO_LOC "s_keys[0]" D21;
+IO_PORT "s_keys[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "s_keys[1]" E21;
+IO_PORT "s_keys[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "s_keys[2]" G22;
+IO_PORT "s_keys[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "s_keys[3]" G21;
+IO_PORT "s_keys[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "s_keys[4]" B22;
+IO_PORT "s_keys[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "seg7_dio" U20;
+IO_PORT "seg7_dio" IO_TYPE=LVCMOS33;
+IO_LOC "seg7_rclk" V20;
+IO_PORT "seg7_rclk" IO_TYPE=LVCMOS33;
+IO_LOC "seg7_sclk" T21;
+IO_PORT "seg7_sclk" IO_TYPE=LVCMOS33;
+
+// ==========================================================
+// 6. GT9147 电容触摸屏与 UART 串口约束
+// ==========================================================
+IO_LOC "tp_scl" L13;
+IO_PORT "tp_scl" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "tp_sda" L14;
+IO_PORT "tp_sda" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "tp_rst" L15;
+IO_PORT "tp_rst" IO_TYPE=LVCMOS33;
+IO_LOC "tp_int" M13;
+IO_PORT "tp_int" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "uart_rxd" L21;
+IO_PORT "uart_rxd" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "uart_txd" M21;
+IO_PORT "uart_txd" IO_TYPE=LVCMOS33;
+
+// ==========================================================
+// 7. GoRV32 QSPI Flash (XIP 指令存储器) 管脚约束
+// ==========================================================
+IO_LOC "flash_csn" T19;
+IO_PORT "flash_csn" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "flash_mosi" P22;
+IO_PORT "flash_mosi" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "flash_miso" R22;
+IO_PORT "flash_miso" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "flash_wpn" P21;
+IO_PORT "flash_wpn" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "flash_holdn" R21;
+IO_PORT "flash_holdn" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "flash_clk" L12;
+IO_PORT "flash_clk" IO_TYPE=LVCMOS33;
+
+// ==========================================================
+// 8. ACX750 P11 (GPIO0) 音频与 MIDI 核心信号 (WM8978 已全部移至左侧列偶数脚)
+//    - P11 Pin 1  (GPIO0_0  -> C18) : MIDI_RX (保持不变)
+//    - P11 Pin 8  (GPIO0_7  -> E18) : WM_I2C_SCLK (接扩展板 Pin 7)
+//    - P11 Pin 10 (GPIO0_9  -> D16) : WM_I2C_SDIN (接扩展板 Pin 9)
+//    - P11 Pin 14 (GPIO0_11 -> E17) : WM_CSB_GPIO1 (接扩展板 Pin 13)
+//    - P11 Pin 16 (GPIO0_13 -> D15) : WM_MODE (接扩展板 Pin 15)
+//    - P11 Pin 22 (GPIO0_19 -> B18) : WM_MCLK (接扩展板 Pin 21)
+//    - P11 Pin 24 (GPIO0_21 -> C17) : WM_BCLK (接扩展板 Pin 23)
+//    - P11 Pin 26 (GPIO0_23 -> B16) : WM_LRC  (接扩展板 Pin 25)
+//    - P11 Pin 28 (GPIO0_25 -> A19) : WM_DACDAT (接扩展板 Pin 27)
+//    - P11 Pin 32 (GPIO0_27 -> C15) : WM_ADCDAT (接扩展板 Pin 31)
+// ==========================================================
+IO_LOC "midi_rx_in" C18;
+IO_PORT "midi_rx_in" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "wm_i2c_sclk" E18;
+IO_PORT "wm_i2c_sclk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "wm_i2c_sdin" D16;
+IO_PORT "wm_i2c_sdin" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+
+IO_LOC "wm_csb_gpio1" E17;
+IO_PORT "wm_csb_gpio1" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "wm_mode" D15;
+IO_PORT "wm_mode" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8;
+
+IO_LOC "wm_mclk" B18;
+IO_PORT "wm_mclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=12;
+IO_LOC "wm_bclk" C17;
+IO_PORT "wm_bclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "wm_lrc" B16;
+IO_PORT "wm_lrc" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "wm_dacdat" A19;
+IO_PORT "wm_dacdat" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+IO_LOC "wm_adcdat" C15;
+IO_PORT "wm_adcdat" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+
+// ==========================================================
+// 9. P11 扩展板其余引脚约束 (被置换的 9 路 vgnd_shield 移至原奇数脚并取消上下拉)
+// ==========================================================
+IO_LOC "iso_guard[0]" F19;      // P11 Pin 5  (GPIO0_4)
+IO_PORT "iso_guard[0]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8;
+IO_LOC "iso_guard[1]" F13;      // P11 Pin 17 (GPIO0_14)
+IO_PORT "iso_guard[1]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8;
+IO_LOC "iso_guard[2]" B20;      // P11 Pin 19 (GPIO0_16)
+IO_PORT "iso_guard[2]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8;
+IO_LOC "iso_guard[3]" E13;      // P11 Pin 33 (GPIO0_28)
+IO_PORT "iso_guard[3]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8;
+IO_LOC "iso_guard[4]" A15;      // P11 Pin 39 (GPIO0_34)
+IO_PORT "iso_guard[4]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8;
+
+IO_LOC "vgnd_shield[0]"  C19;   // P11 Pin 2  (GPIO0_1)
+IO_PORT "vgnd_shield[0]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
+IO_LOC "vgnd_shield[1]"  D19;   // P11 Pin 4  (GPIO0_3)
+IO_PORT "vgnd_shield[1]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
+IO_LOC "vgnd_shield[2]"  F20;   // P11 Pin 6  (GPIO0_5)
+IO_PORT "vgnd_shield[2]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
+IO_LOC "vgnd_shield[3]"  F18;   // 置换至原 P11 Pin 7  (GPIO0_6)
+IO_PORT "vgnd_shield[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[4]"  E16;   // 置换至原 P11 Pin 9  (GPIO0_8)
+IO_PORT "vgnd_shield[4]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[5]"  F16;   // 置换至原 P11 Pin 13 (GPIO0_10)
+IO_PORT "vgnd_shield[5]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[6]"  D14;   // 置换至原 P11 Pin 15 (GPIO0_12)
+IO_PORT "vgnd_shield[6]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[7]"  F14;   // P11 Pin 18 (GPIO0_15)
+IO_PORT "vgnd_shield[7]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
+IO_LOC "vgnd_shield[8]"  A20;   // P11 Pin 20 (GPIO0_17)
+IO_PORT "vgnd_shield[8]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
+IO_LOC "vgnd_shield[9]"  B17;   // 置换至原 P11 Pin 21 (GPIO0_18)
+IO_PORT "vgnd_shield[9]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[10]" D17;   // 置换至原 P11 Pin 23 (GPIO0_20)
+IO_PORT "vgnd_shield[10]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[11]" B15;   // 置换至原 P11 Pin 25 (GPIO0_22)
+IO_PORT "vgnd_shield[11]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[12]" A18;   // 置换至原 P11 Pin 27 (GPIO0_24)
+IO_PORT "vgnd_shield[12]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[13]" C14;   // 置换至原 P11 Pin 31 (GPIO0_26)
+IO_PORT "vgnd_shield[13]" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "vgnd_shield[14]" E14;   // P11 Pin 34 (GPIO0_29)
+IO_PORT "vgnd_shield[14]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
+IO_LOC "vgnd_shield[15]" B13;   // P11 Pin 36 (GPIO0_31)
+IO_PORT "vgnd_shield[15]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
+IO_LOC "vgnd_shield[16]" A14;   // P11 Pin 38 (GPIO0_33)
+IO_PORT "vgnd_shield[16]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
+IO_LOC "vgnd_shield[17]" A16;   // P11 Pin 40 (GPIO0_35)
+IO_PORT "vgnd_shield[17]" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=12;
